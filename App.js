@@ -20,7 +20,7 @@ console.log(root);
 const parent=React.createElement("div",{id:"parent"},
     [
       React.createElement("div",{id:"child1"},
-         [React.createElement("h1",{},"h1 from child1"),React.createElement("h2",{},"h2 from child1")])
+         [React.createElement("h1",{},"h1 from child1 App.js"),React.createElement("h2",{},"h2 from child1")])
      ,React.createElement("div",{id:"child2"},React.createElement("h1",{},"h1 from child2"))
     ])
 
